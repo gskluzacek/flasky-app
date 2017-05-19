@@ -1,0 +1,8 @@
+PassengerPython "/home/flskusr/scn2app.swiftcodeninja.com/env/bin/python"
+SetEnv MAIL_SERVER 'xxx.mail.host.com'
+SetEnv MAIL_PORT '587'
+SetEnv MAIL_USE_TLS 'Y'
+SetEnv MAIL_USERNAME 'xxxx'
+SetEnv MAIL_PASSWORD 'xxxx'
+SetEnv FLASKY_ADMIN 'xxxx@xxxx.com'
+
