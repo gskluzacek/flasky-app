@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/home/flskusr/scn2app.swiftcodeninja.com/env/bin/python
 import os
 from app import create_app, db
 from app.models import User, Role
