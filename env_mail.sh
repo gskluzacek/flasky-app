@@ -1,6 +1,0 @@
-export MAIL_SERVER='xxxx.mail.host.com'
-export MAIL_PORT='587'
-export MAIL_USE_TLS='Y'
-export MAIL_USERNAME='xxxx'
-export MAIL_PASSWORD='xxxx'
-export FLASKY_ADMIN='xxxx@xxxx.com'

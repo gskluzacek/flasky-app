@@ -1,1 +1,1 @@
-python hello.py runserver -h swiftcodeninja.com -p 5080
+./manage.py runserver -h swiftcodeninja.com -p 5080

@@ -1,8 +1,25 @@
-PassengerPython "/home/flskusr/scn2app.swiftcodeninja.com/env/bin/python"
-SetEnv MAIL_SERVER 'xxx.mail.host.com'
+# tell passenger what python interpreter to use
+PassengerPython '/xxxx/env/bin/python'
+
+# MAIL RELATED CONFIG VALUES
+SetEnv MAIL_SERVER 'xxxx.mail.xxxxhost.com'
 SetEnv MAIL_PORT '587'
 SetEnv MAIL_USE_TLS 'Y'
-SetEnv MAIL_USERNAME 'xxxx'
+SetEnv MAIL_USERNAME 'xxxx@xxxx.com'
 SetEnv MAIL_PASSWORD 'xxxx'
-SetEnv FLASKY_ADMIN 'xxxx@xxxx.com'
 
+# APP RELATED EMAIL ADDRESSES
+SetEnv FLASKY_ADMIN 'xxxx@xxxx.com'
+SetEnv FLASKY_MAIL_SENDER 'xxxx@xxxx.com'
+
+# DB URIs - If not defined will pick up the environment specific config obj default values
+# SetEnv DEV_DATABASE_URL 'data-xxxx.sqlite'
+# SetEnv TEST_DATABASE_URL 'data-xxxx.sqlite'
+# SetEnv DATABASE_URL 'data.sqlite'
+
+# Secret Key - If not defined will pick up the base config object default value
+# SetEnv SECRET_KEY 'xxx'
+
+# controls which config class is used
+# see `config` dictionary object in config.py for valid values
+SetEnv FLASK_CONFIG 'development'
