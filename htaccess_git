@@ -1,16 +1,16 @@
 # tell passenger what python interpreter to use
-PassengerPython "/home/flskusr/scn2app.swiftcodeninja.com/env/bin/python"
+PassengerPython '/xxxx/env/bin/python'
 
 # MAIL RELATED CONFIG VALUES
-SetEnv MAIL_SERVER 'sub5.mail.dreamhost.com'
+SetEnv MAIL_SERVER 'xxxx.mail.xxxxhost.com'
 SetEnv MAIL_PORT '587'
 SetEnv MAIL_USE_TLS 'Y'
-SetEnv MAIL_USERNAME 'flask.app@scn2app.swiftcodeninja.com'
-SetEnv MAIL_PASSWORD 'RedNaxela1'
+SetEnv MAIL_USERNAME 'xxxx@xxxx.com'
+SetEnv MAIL_PASSWORD 'xxxx'
 
 # APP RELATED EMAIL ADDRESSES
-SetEnv FLASKY_ADMIN 'flask.admin@scn2app.swiftcodeninja.com'
-SetEnv FLASKY_MAIL_SENDER 'flask.app@scn2app.swiftcodeninja.com'
+SetEnv FLASKY_ADMIN 'xxxx@xxxx.com'
+SetEnv FLASKY_MAIL_SENDER 'xxxx@xxxx.com'
 
 # DB URIs - If not defined will pick up the environment specific config obj default values
 # SetEnv DEV_DATABASE_URL 'data-xxxx.sqlite'
